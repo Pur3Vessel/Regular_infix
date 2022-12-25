@@ -2,9 +2,11 @@
 # Описание входного синтаксиса
 Регулярку можно подать только через файл
 Синтаксис входных данных:
-<regex> ::= <regex><binary><regex> | <span style="color:red">(</span><regex><span style="color:red">)</span> | <regex><unary> | <symbol> | ɛ
-<binary> ::= <span style="color:red">|</span> | ɛ
-<unary> ::= <span style="color:red">*</span> | <span style="color:red">+</span>
+- [regex] ::= [regex][binary][regex] | <span style="color:red">(</span><regex><span style="color:red">)</span> | [regex][unary] | [symbol] | ɛ
+- [binary] ::= <span style="color:red">|</span> | ɛ
+- [unary] ::= <span style="color:red">*</span> | <span style="color:red">+</span>
+
+
 # Все, что необходимо для запуска
 Для запуска лабораторной вам нужен компилятор haskell, а также проектные менеджеры stack и cabal.
 Их можно очень просто поставить с помощью ghcup:
