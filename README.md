@@ -2,9 +2,9 @@
 # Описание входного синтаксиса
 Регулярку можно подать только через файл
 Синтаксис входных данных:
-- [regex] ::= [regex][binary][regex] | !!(red)(!![regex]!!(red))!! | [regex][unary] | [symbol] | ɛ
-- [binary] ::= !!(red)|!! | ɛ
-- [unary] ::= !!(red)*!! | !!(red)+!!
+- [regex] ::= [regex][binary][regex] | ([regex]) | [regex][unary] | [symbol] | ɛ
+- [binary] ::= | | ɛ
+- [unary] ::= * | +
 
 
 # Все, что необходимо для запуска
