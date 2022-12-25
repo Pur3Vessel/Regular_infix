@@ -2,9 +2,9 @@
 # Описание входного синтаксиса
 Регулярку можно подать только через файл
 Синтаксис входных данных:
-- [regex] ::= [regex][binary][regex] | <span style="color:red">(</span><regex><span style="color:red">)</span> | [regex][unary] | [symbol] | ɛ
-- [binary] ::= <span style="color:red">|</span> | ɛ
-- [unary] ::= <span style="color:red">*</span> | <span style="color:red">+</span>
+- [regex] ::= [regex][binary][regex] | !!(red)(!![regex]!!(red))!! | [regex][unary] | [symbol] | ɛ
+- [binary] ::= !!(red)|!! | ɛ
+- [unary] ::= !!(red)*!! | !!(red)+!!
 
 
 # Все, что необходимо для запуска
